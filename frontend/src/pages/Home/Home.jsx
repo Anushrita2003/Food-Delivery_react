@@ -10,6 +10,7 @@ const Home=()=>{
 
   return (
     <div>
+      {/* <div className="top"></div> */}
         <Header/>
         <ExploreMenu category={category} setCategory={setCategory}/>
     </div>
